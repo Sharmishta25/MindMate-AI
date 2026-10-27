@@ -2,7 +2,7 @@
 
 A local-first mental wellbeing and emotional pattern-tracking application, prepared for the **AI Growth & Automation Associate assessment** as one healthcare/technology web-application project.
 
-**Status:** implemented local prototype; not published or submitted. Core tools run without an API key. External AI integration is implemented and tested with mocks; no live model request or model-quality benchmark has been performed.
+**Status:** implemented local prototype. Source published at [Sharmishta25/MindMate-AI](https://github.com/Sharmishta25/MindMate-AI); application hosting and assessment submission have not been performed. Core tools run without an API key. External AI integration is implemented and tested with mocks; no live model request or model-quality benchmark has been performed.
 
 ## Problem and intended users
 
