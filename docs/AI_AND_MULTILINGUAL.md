@@ -1,0 +1,13 @@
+# AI and multilingual behavior
+
+Optional provider: Anthropic Messages via environment configuration, explicit request consent and bounded structured JSON. No live provider call was made in this implementation. Missing credentials, timeouts, service failures, malformed or ungrounded responses use a clearly labelled rule-based fallback. Core tools never require model access.
+
+Journal prompt reflection-v2 treats reviewed excerpts as untrusted data. Language-aware evidence checks add limited Hindi/Marathi topic and first-person feeling vocabulary to existing English checks. Exact source quotations are preserved, never silently translated. Stated feelings and tentative themes remain distinct; recurring themes require multiple supporting entries. Report narrative prompt report-v1 can select sections of deterministic evidence, not invent numbers. Plan prompt plan-v1 can select only preferred curated activity identifiers; local code assigns bounded dates/durations. It receives goals, activity preferences, language and time/frequency only, never journals. Local support matching precedes routine journal and plan generation; limited non-English rules are not validated crisis detection.
+
+## Language coverage
+
+Central JSON resources are in mindmate/i18n. English, Hindi (हिन्दी) and Marathi (मराठी) are selectable after login; the preference persists in encrypted profile preferences. UTF-8 records and search retain Unicode. Core form/navigation labels have Hindi/Marathi translations. Untranslated keys intentionally fall back to English; static landing prose, canonical emotion/activity identifiers, some help/safety prose, validation errors and reports remain English. This is PARTIAL multilingual interface support, not a claim of complete localization. Reflections may retain English curated explanations with original-language quotations. No multilingual diagnosis or clinically validated translation is provided.
+
+Independent fluent-speaker review, expanded safety vocabulary, full explanatory-copy/report localization and region-specific resource review are outstanding. Safety resources remain canonical rather than machine-invented. Users needing another language should not rely on this prototype for urgent guidance. Prompt injection remains possible; schema/evidence checks and bounded output reduce scope without guaranteeing prevention.
+
+Tests exercise resource Unicode/fallback, limited Hindi/Marathi evidence and support phrases, timeout fallback, account UI, and owner persistence. These tests establish code behavior, not linguistic quality, model quality or clinical safety. See [AI design](AI_DESIGN.md) and [test report](TEST_REPORT.md).
